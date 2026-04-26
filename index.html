@@ -1,0 +1,182 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>EduMonitor | Real-Time Student &amp; Teacher Performance Monitoring</title>
+<link rel="stylesheet" href="styles.css"/><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/></head><body>
+<nav class="navbar"><div class="container nav-inner"><a href="#" class="nav-logo">Edu<span>Monitor</span></a>
+<ul class="nav-links"><li><a href="#home" class="active">Home</a></li><li><a href="#research">Research</a></li><li><a href="#domain">Domain</a></li><li><a href="#milestones">Milestones</a></li><li><a href="#downloads">Downloads</a></li><li><a href="#publications">Publications</a></li><li><a href="#team">Team</a></li><li><a href="#contact">Contact</a></li></ul>
+<button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button></div></nav>
+
+<section class="hero section" id="home"><div class="container hero-content">
+<div class="hero-badge"><span class="dot"></span> SLIIT Research Project 2025</div>
+<h1>Real-Time Student &amp; Teacher <span class="hl">Performance Monitoring</span> System</h1>
+<p>An AI-powered educational platform combining computer vision, NLP, and machine learning to monitor engagement, predict attendance, analyze teacher behavior, and provide real-time classroom support.</p>
+<div class="hero-btns"><a href="#research" class="btn-primary"><i class="fas fa-microscope"></i> Explore Research</a><a href="#contact" class="btn-outline"><i class="fas fa-envelope"></i> Contact Us</a></div>
+</div></section>
+
+<section class="section" id="overview"><div class="container">
+<div class="section-label fade-up">About The Project</div><h2 class="section-title fade-up">Project <span class="hl">Overview</span></h2>
+<div class="overview-grid fade-up">
+<div class="overview-text">
+<p>EduMonitor is a comprehensive, AI-powered educational monitoring platform developed at the Sri Lanka Institute of Information Technology (SLIIT). The system addresses a critical gap in modern education — the lack of real-time, actionable insights into classroom dynamics.</p>
+<p>Our platform integrates four specialized research components into a unified system: <strong>Student Engagement Detection</strong> using pose estimation and computer vision, <strong>Teacher Behavior Classification</strong> through movement tracking and spatial analysis, <strong>Attendance Factor Analysis</strong> using a validated psychometric survey instrument with machine learning predictions, and a <strong>RAG-based Classroom Support System</strong> for real-time question answering and lecture summarisation.</p>
+<p>Built on a modern tech stack — FastAPI backend, Next.js frontend, and PostgreSQL database — EduMonitor processes classroom video feeds, survey data, and lecture content to deliver real-time analytics, predictions, and personalised recommendations to educators through an intuitive dashboard.</p>
+</div>
+<div class="overview-image fade-up"><img src="images/hero-bg.png" alt="EduMonitor System Overview"/></div>
+</div></div></section>
+
+<section class="section" id="research"><div class="container">
+<div class="section-label fade-up">Our Research</div><h2 class="section-title fade-up">What <span class="hl">EduMonitor</span> Does</h2>
+<p class="section-desc fade-up">Our system integrates four AI-powered components to create a comprehensive classroom analytics platform.</p>
+<div class="research-grid">
+<div class="glass-card fade-up"><div class="card-icon"><i class="fas fa-eye"></i></div><h3>Student Engagement Detection</h3><p>Real-time pose-based framework using YOLOv8-Pose and Random Forest classifiers for behavioral predictions.</p></div>
+<div class="glass-card fade-up"><div class="card-icon"><i class="fas fa-chalkboard-teacher"></i></div><h3>Teacher Behavior Analysis</h3><p>Pose estimation and movement tracking to classify teacher instructional behaviors and classroom dynamics.</p></div>
+<div class="glass-card fade-up"><div class="card-icon"><i class="fas fa-chart-line"></i></div><h3>Attendance Factor Analysis</h3><p>Validated six-factor survey instrument with Ridge Regression to predict and explain attendance patterns.</p></div>
+<div class="glass-card fade-up"><div class="card-icon"><i class="fas fa-robot"></i></div><h3>RAG Classroom Support</h3><p>Dual-source RAG system for real-time Q&amp;A, lecture summarisation, and outcome-aligned assessment.</p></div>
+</div></div></section>
+<section class="section" id="domain" style="background:var(--bg2)"><div class="container">
+<div class="section-label fade-up">Domain</div><h2 class="section-title fade-up">Individual <span class="hl">Research Domains</span></h2>
+<p class="section-desc fade-up">Each team member contributes a specialized AI component to the unified EduMonitor platform.</p>
+<div class="domain-tabs fade-up"><button class="domain-tab active" data-target="panel-lit">Literature Survey</button><button class="domain-tab" data-target="panel-gap">Research Gap</button><button class="domain-tab" data-target="panel-prob">Research Problem</button><button class="domain-tab" data-target="panel-obj">Research Objectives</button><button class="domain-tab" data-target="panel-meth">Methodology</button><button class="domain-tab" data-target="panel-tech">Technologies Used</button></div>
+<div class="domain-panel active" id="panel-lit"><div class="domain-cards">
+<div class="d-card fade-up"><span class="d-tag tag-purple">IT22582874</span><div class="d-member">Kisara W.C</div><h3>Student Engagement Detection</h3><p>Recent educational computer vision studies utilize pose estimation to analyze classroom actions while minimizing reliance on appearance-based cues. Deep learning models for behavior recognition often require high-performance GPUs and typically operate offline.</p></div>
+<div class="d-card fade-up"><span class="d-tag tag-cyan">IT22586834</span><div class="d-member">De Silva A.R.S</div><h3>Teacher Behavior Classification</h3><p>Research in spatial pedagogy highlights that teacher positioning, trajectory, and proximity are crucial for interpreting instructional interactions. Deep learning models often require high-performance GPUs.</p></div>
+<div class="d-card fade-up"><span class="d-tag tag-blue">IT22560162</span><div class="d-member">Deemantha P.H.H.C</div><h3>Attendance Factor Analysis</h3><p>Student lecture attendance is one of the strongest predictors of academic performance. However, most universities only record absence without understanding the reasons. ML techniques have been used but rely on administrative data rather than validated survey instruments.</p></div>
+<div class="d-card fade-up"><span class="d-tag tag-pink">IT22594136</span><div class="d-member">Pallewela S.M</div><h3>RAG Classroom Support</h3><p>Recent studies show that Retrieval-Augmented Generation (RAG) improves accuracy of educational AI systems by grounding responses in external knowledge. However, most systems rely on static datasets and lack real-time classroom integration.</p></div>
+</div></div>
+<div class="domain-panel" id="panel-gap"><div class="domain-cards">
+<div class="d-card fade-up"><span class="d-tag tag-purple">IT22582874</span><div class="d-member">Kisara W.C</div><h3>Student Engagement Detection</h3><p>Most approaches analyze student engagement and teacher behavior as completely separate domains, missing joint classroom dynamics. Existing systems lack the interpretability educators need.</p></div>
+<div class="d-card fade-up"><span class="d-tag tag-cyan">IT22586834</span><div class="d-member">De Silva A.R.S</div><h3>Teacher Behavior Classification</h3><p>Existing systems heavily rely on computationally intensive architectures, limiting live deployment on standard hardware. End-to-end black-box models lack interpretability.</p></div>
+<div class="d-card fade-up"><span class="d-tag tag-blue">IT22560162</span><div class="d-member">Deemantha P.H.H.C</div><h3>Attendance Factor Analysis</h3><p>Most studies rely on single-factor analyses and do not use a validated multidimensional survey. ML models are rarely trained on factor-analytic scores linked to real attendance records. There is also a theory-practice gap in deployment.</p></div>
+<div class="d-card fade-up"><span class="d-tag tag-pink">IT22594136</span><div class="d-member">Pallewela S.M</div><h3>RAG Classroom Support</h3><p>Current educational AI systems do not effectively combine real-time lecture content with pre-prepared materials. Most solutions lack ability to reflect what is actually taught during live sessions.</p></div>
+</div></div>
+<div class="domain-panel" id="panel-prob"><div class="domain-cards">
+<div class="d-card fade-up"><span class="d-tag tag-purple">IT22582874</span><div class="d-member">Kisara W.C</div><h3>Student Engagement Detection</h3><p>There is a critical lack of a practical, interpretable, and real-time framework capable of jointly analyzing both student behavioral engagement and teacher instructional behavior.</p></div>
+<div class="d-card fade-up"><span class="d-tag tag-cyan">IT22586834</span><div class="d-member">De Silva A.R.S</div><h3>Teacher Behavior Classification</h3><p>There is a critical lack of a practical, interpretable, and real-time framework for analyzing teacher instructional behavior within physical classroom settings.</p></div>
+<div class="d-card fade-up"><span class="d-tag tag-blue">IT22560162</span><div class="d-member">Deemantha P.H.H.C</div><h3>Attendance Factor Analysis</h3><p>Universities can record absence but cannot explain why students are absent. The problem is to develop a validated survey instrument, predict attendance using ML, and deliver actionable recommendations through a live dashboard.</p></div>
+<div class="d-card fade-up"><span class="d-tag tag-pink">IT22594136</span><div class="d-member">Pallewela S.M</div><h3>RAG Classroom Support</h3><p>Students often experience knowledge gaps during live lectures due to missed explanations or varying learning speeds. Existing tools do not provide real-time support to address these gaps.</p></div>
+</div></div>
+<div class="domain-panel" id="panel-obj"><div class="domain-cards">
+<div class="d-card fade-up"><span class="d-tag tag-purple">IT22582874</span><div class="d-member">Kisara W.C</div><h3>Student Engagement Detection</h3><ul><li>Design a unified, pose-based framework for jointly monitoring teacher and student behaviors</li><li>Develop an interpretable feature engineering pipeline using geometric, kinematic, and spatial descriptors</li><li>Incorporate classroom-aware contextual modeling to improve system robustness</li><li>Support real-time, low-latency deployment on standard hardware</li></ul></div>
+<div class="d-card fade-up"><span class="d-tag tag-cyan">IT22586834</span><div class="d-member">De Silva A.R.S</div><h3>Teacher Behavior Classification</h3><ul><li>Design a pose-based framework for monitoring teacher behaviors in physical classrooms</li><li>Develop an interpretable feature engineering pipeline using geometric and kinematic descriptors</li><li>Incorporate classroom-aware contextual modeling</li><li>Support real-time deployment on standard hardware with live visualization</li></ul></div>
+<div class="d-card fade-up"><span class="d-tag tag-blue">IT22560162</span><div class="d-member">Deemantha P.H.H.C</div><h3>Attendance Factor Analysis</h3><ul><li>Develop a real-time attendance prediction system using a validated six-factor survey instrument</li><li>Validate the instrument using Exploratory Factor Analysis on two independent datasets</li><li>Compare four regression models and deploy the best as an ML Insights Engine</li><li>Generate per-student factor-level natural-language recommendations</li></ul></div>
+<div class="d-card fade-up"><span class="d-tag tag-pink">IT22594136</span><div class="d-member">Pallewela S.M</div><h3>RAG Classroom Support</h3><ul><li>Develop a real-time classroom support system for question answering and lecture summarisation</li><li>Align assessments with learning outcomes using Bloom's taxonomy</li><li>Provide analytics to identify student performance gaps</li></ul></div>
+</div></div>
+<div class="domain-panel" id="panel-meth"><div class="domain-cards">
+<div class="d-card fade-up"><span class="d-tag tag-purple">IT22582874</span><div class="d-member">Kisara W.C</div><h3>Student Engagement Detection</h3><p>Real-time 17-point skeletal extraction using YOLOv8-Pose. OSNet-based deep re-identification for tracking. Extraction of 9 geometric features with lightweight Random Forest classifiers and temporal smoothing windows (~30 frames).</p></div>
+<div class="d-card fade-up"><span class="d-tag tag-cyan">IT22586834</span><div class="d-member">De Silva A.R.S</div><h3>Teacher Behavior Classification</h3><p>YOLOv8-Pose for perception. OSNet-based deep re-identification for tracking. Dynamic temporal/kinematic feature extraction. Lightweight Random Forest classifiers with majority voting for stable predictions.</p></div>
+<div class="d-card fade-up"><span class="d-tag tag-blue">IT22560162</span><div class="d-member">Deemantha P.H.H.C</div><h3>Attendance Factor Analysis</h3><p>A 28-item Likert-scale survey covering six factor dimensions was designed and administered via Google Forms. Responses were linked to actual attendance records (n=115). EFA achieved KMO > 0.90. Ridge Regression was selected as best model (R² = 0.8643) and integrated into EduMonitor backend.</p></div>
+<div class="d-card fade-up"><span class="d-tag tag-pink">IT22594136</span><div class="d-member">Pallewela S.M</div><h3>RAG Classroom Support</h3><p>Dual-source RAG architecture combining teacher-provided materials and live speech-to-text transcripts. Content embedded using Sentence-BERT and stored in vector database. Fine-tuned LLM generates context-aware answers, summaries, and quiz questions.</p></div>
+</div></div>
+<div class="domain-panel" id="panel-tech"><div class="domain-cards">
+<div class="d-card fade-up"><span class="d-tag tag-purple">IT22582874</span><div class="d-member">Kisara W.C</div><h3>Student Engagement Detection</h3><p>Python 3.10, OpenCV, Ultralytics YOLOv8, Scikit-learn, FastAPI, Next.js, React, Tailwind CSS. Standard CPU-based edge-computing environment (Intel Core i5, 8 GB RAM).</p></div>
+<div class="d-card fade-up"><span class="d-tag tag-cyan">IT22586834</span><div class="d-member">De Silva A.R.S</div><h3>Teacher Behavior Classification</h3><p>Python 3.10, OpenCV, Ultralytics YOLOv8, Scikit-learn, FastAPI, Next.js, React, Tailwind CSS. Standard CPU-based environment (Intel Core i5, 8 GB RAM, Windows 10).</p></div>
+<div class="d-card fade-up"><span class="d-tag tag-blue">IT22560162</span><div class="d-member">Deemantha P.H.H.C</div><h3>Attendance Factor Analysis</h3><p>Python, Scikit-learn, factor_analyzer, Pandas, NumPy, Matplotlib, Seaborn, FastAPI, Next.js 14 with TypeScript, PostgreSQL, Google Forms, Jupyter Notebook.</p></div>
+<div class="d-card fade-up"><span class="d-tag tag-pink">IT22594136</span><div class="d-member">Pallewela S.M</div><h3>RAG Classroom Support</h3><p>Llama-based language models, Sentence-BERT, Qdrant vector database, Faster-Whisper for speech-to-text, FastAPI backend, Next.js frontend.</p></div>
+</div></div>
+</div></section>
+<section class="section" id="milestones"><div class="container">
+<div class="section-label fade-up" style="text-align:center">Timeline</div><h2 class="section-title fade-up" style="text-align:center">Research <span class="hl">Milestones</span></h2>
+<p class="section-desc fade-up" style="text-align:center;margin:0 auto 48px">A structured timeline highlighting key assessments, deliverables, and evaluation milestones of the EduMonitor research project.</p>
+<div class="ms-timeline">
+<div class="ms-item fade-up"><div class="ms-dot-wrap"><div class="ms-dot"></div></div>
+<div class="ms-card"><div class="ms-card-header"><i class="fas fa-calendar-alt"></i> September 2025</div>
+<h3>Project Proposal</h3><p>Initial research proposal defining research problems, objectives, and scope for all four components.</p>
+<div class="ms-footer"><div class="ms-marks-row"><span class="ms-marks-label">Marks Allocated:</span><span class="ms-marks-val">6</span></div>
+<div class="ms-progress"><div class="ms-progress-bar" style="width:30%"></div></div><span class="ms-pct">30%</span></div></div></div>
+<div class="ms-item fade-up"><div class="ms-dot-wrap"><div class="ms-dot"></div></div>
+<div class="ms-card"><div class="ms-card-header"><i class="fas fa-calendar-alt"></i> December 2025</div>
+<h3>Progress Presentation I</h3><p>Comprehensive literature surveys, identified research gaps, and detailed the initial methodology for each system component.</p>
+<div class="ms-footer"><div class="ms-marks-row"><span class="ms-marks-label">Marks Allocated:</span><span class="ms-marks-val">12</span></div>
+<div class="ms-progress"><div class="ms-progress-bar" style="width:60%"></div></div><span class="ms-pct">60%</span></div></div></div>
+<div class="ms-item fade-up"><div class="ms-dot-wrap"><div class="ms-dot"></div></div>
+<div class="ms-card"><div class="ms-card-header"><i class="fas fa-calendar-alt"></i> March 2026</div>
+<h3>Progress Presentation II</h3><p>Demonstrated implementation progress, presented model training results, and showcased performance evaluation of each AI module.</p>
+<div class="ms-footer"><div class="ms-marks-row"><span class="ms-marks-label">Marks Allocated:</span><span class="ms-marks-val">12</span></div>
+<div class="ms-progress"><div class="ms-progress-bar" style="width:60%"></div></div><span class="ms-pct">60%</span></div></div></div>
+<div class="ms-item fade-up"><div class="ms-dot-wrap"><div class="ms-dot"></div></div>
+<div class="ms-card"><div class="ms-card-header"><i class="fas fa-calendar-alt"></i> April 2026</div>
+<h3>Final Presentation &amp; Viva</h3><p>Final dissertations, comprehensive system presentations, and viva defense with complete integrated platform demonstration.</p>
+<div class="ms-footer"><div class="ms-marks-row"><span class="ms-marks-label">Marks Allocated:</span><span class="ms-marks-val">20</span></div>
+<div class="ms-progress"><div class="ms-progress-bar" style="width:100%"></div></div><span class="ms-pct">100%</span></div></div></div>
+</div></div></section>
+<section class="section" id="downloads" style="background:var(--bg2)"><div class="container">
+<div class="section-label fade-up">Resources</div><h2 class="section-title fade-up">Downloads &amp; <span class="hl">Documents</span></h2>
+<p class="section-desc fade-up">Access our research documents, presentations, and reports.</p>
+<div class="dl-category fade-up"><div class="dl-category-title"><i class="fas fa-file-contract"></i> Project Charter</div><div class="downloads-grid">
+<div class="download-card"><div class="dl-icon pdf"><i class="fas fa-file-pdf"></i></div><div class="dl-info"><h4>Project Charter</h4><span class="dl-type">PDF Document</span></div><a class="dl-btn" href="#"><i class="fas fa-external-link-alt"></i></a></div>
+</div></div>
+<div class="dl-category fade-up"><div class="dl-category-title"><i class="fas fa-file-alt"></i> Proposal Documents</div><div class="downloads-grid">
+<div class="download-card"><div class="dl-icon pdf"><i class="fas fa-file-pdf"></i></div><div class="dl-info"><h4>Proposal — Kisara W.C</h4><span class="dl-type">PDF Document</span></div><a class="dl-btn" href="https://drive.google.com/file/d/1zoigON9K3tz5XnG5sB5bEOSHDSQ93wkD/view?usp=sharing" target="_blank"><i class="fas fa-external-link-alt"></i></a></div>
+<div class="download-card"><div class="dl-icon pdf"><i class="fas fa-file-pdf"></i></div><div class="dl-info"><h4>Proposal — De Silva A.R.S</h4><span class="dl-type">PDF Document</span></div><a class="dl-btn" href="https://drive.google.com/file/d/1eCFB98qBPTR-aU7_iUR1phsbnIiAR0PX/view?usp=sharing" target="_blank"><i class="fas fa-external-link-alt"></i></a></div>
+<div class="download-card"><div class="dl-icon pdf"><i class="fas fa-file-pdf"></i></div><div class="dl-info"><h4>Proposal — Deemantha P.H.H.C</h4><span class="dl-type">PDF Document</span></div><a class="dl-btn" href="https://drive.google.com/file/d/1MjSbM9GbwZbyY6dK1Cg5LIFIXrwMV6HW/view?usp=sharing" target="_blank"><i class="fas fa-external-link-alt"></i></a></div>
+<div class="download-card"><div class="dl-icon pdf"><i class="fas fa-file-pdf"></i></div><div class="dl-info"><h4>Proposal — Pallewela S.M</h4><span class="dl-type">PDF Document</span></div><a class="dl-btn" href="https://drive.google.com/file/d/1CtByewh5yUn82ns7rlkBrjDiw9TTP8c3/view?usp=sharing" target="_blank"><i class="fas fa-external-link-alt"></i></a></div>
+</div></div>
+<div class="dl-category fade-up"><div class="dl-category-title"><i class="fas fa-clipboard-check"></i> Check List Documents</div><div class="downloads-grid">
+<div class="download-card"><div class="dl-icon pdf"><i class="fas fa-file-pdf"></i></div><div class="dl-info"><h4>Checklist 1</h4><span class="dl-type">PDF Document</span></div><a class="dl-btn" href="https://drive.google.com/file/d/10CZtYHOeZyjU0W7-SeYY8PungCAeCWMO/view?usp=sharing" target="_blank"><i class="fas fa-external-link-alt"></i></a></div>
+<div class="download-card"><div class="dl-icon pdf"><i class="fas fa-file-pdf"></i></div><div class="dl-info"><h4>Checklist 2</h4><span class="dl-type">PDF Document</span></div><a class="dl-btn" href="https://drive.google.com/file/d/199h5isWZ2gNaD1AlXGXIGlrSwdEj0_LH/view?usp=sharing" target="_blank"><i class="fas fa-external-link-alt"></i></a></div>
+<div class="download-card"><div class="dl-icon pdf"><i class="fas fa-file-pdf"></i></div><div class="dl-info"><h4>Checklist 3</h4><span class="dl-type">PDF Document</span></div><a class="dl-btn" href="#"><i class="fas fa-external-link-alt"></i></a></div>
+<div class="download-card"><div class="dl-icon pdf"><i class="fas fa-file-pdf"></i></div><div class="dl-info"><h4>Checklist 4</h4><span class="dl-type">PDF Document</span></div><a class="dl-btn" href="#"><i class="fas fa-external-link-alt"></i></a></div>
+<div class="download-card"><div class="dl-icon pdf"><i class="fas fa-file-pdf"></i></div><div class="dl-info"><h4>Topic Assessment Form</h4><span class="dl-type">PDF Document</span></div><a class="dl-btn" href="https://drive.google.com/file/d/1PIHdjM-kY8fP5sgXGsT5zmx0-go9FQ18/view?usp=sharing" target="_blank"><i class="fas fa-external-link-alt"></i></a></div>
+</div></div>
+<div class="dl-category fade-up"><div class="dl-category-title"><i class="fas fa-book"></i> Final Documents</div><div class="downloads-grid">
+<div class="download-card"><div class="dl-icon pdf"><i class="fas fa-file-pdf"></i></div><div class="dl-info"><h4>Final Group Report</h4><span class="dl-type">PDF Document</span></div><a class="dl-btn" href="#"><i class="fas fa-external-link-alt"></i></a></div>
+<div class="download-card"><div class="dl-icon pdf"><i class="fas fa-file-pdf"></i></div><div class="dl-info"><h4>Final Report — Kisara W.C</h4><span class="dl-type">PDF Document</span></div><a class="dl-btn" href="#"><i class="fas fa-external-link-alt"></i></a></div>
+<div class="download-card"><div class="dl-icon pdf"><i class="fas fa-file-pdf"></i></div><div class="dl-info"><h4>Final Report — De Silva A.R.S</h4><span class="dl-type">PDF Document</span></div><a class="dl-btn" href="#"><i class="fas fa-external-link-alt"></i></a></div>
+<div class="download-card"><div class="dl-icon pdf"><i class="fas fa-file-pdf"></i></div><div class="dl-info"><h4>Final Report — Deemantha P.H.H.C</h4><span class="dl-type">PDF Document</span></div><a class="dl-btn" href="#"><i class="fas fa-external-link-alt"></i></a></div>
+<div class="download-card"><div class="dl-icon pdf"><i class="fas fa-file-pdf"></i></div><div class="dl-info"><h4>Final Report — Pallewela S.M</h4><span class="dl-type">PDF Document</span></div><a class="dl-btn" href="#"><i class="fas fa-external-link-alt"></i></a></div>
+</div></div>
+<div class="dl-category fade-up"><div class="dl-category-title"><i class="fas fa-file-powerpoint"></i> Presentations</div><div class="downloads-grid">
+<div class="download-card"><div class="dl-icon ppt"><i class="fas fa-file-powerpoint"></i></div><div class="dl-info"><h4>Proposal Presentation</h4><span class="dl-type">PPTX Document</span></div><a class="dl-btn" href="https://docs.google.com/presentation/d/1O9Egh_E56Qb0K_lxxRWWiL_8CkAZ8cqg/edit?usp=drive_link&ouid=106375118808152884765&rtpof=true&sd=true" target="_blank"><i class="fas fa-external-link-alt"></i></a></div>
+<div class="download-card"><div class="dl-icon ppt"><i class="fas fa-file-powerpoint"></i></div><div class="dl-info"><h4>Progress Presentation 1</h4><span class="dl-type">PPTX Document</span></div><a class="dl-btn" href="https://docs.google.com/presentation/d/1kUfcPPYykvClRLFozm9yRUkSEUKkAJYw/edit?usp=drive_link&ouid=106375118808152884765&rtpof=true&sd=true" target="_blank"><i class="fas fa-external-link-alt"></i></a></div>
+<div class="download-card"><div class="dl-icon ppt"><i class="fas fa-file-powerpoint"></i></div><div class="dl-info"><h4>Progress Presentation 2</h4><span class="dl-type">PPTX Document</span></div><a class="dl-btn" href="#"><i class="fas fa-external-link-alt"></i></a></div>
+<div class="download-card"><div class="dl-icon ppt"><i class="fas fa-file-powerpoint"></i></div><div class="dl-info"><h4>Final Presentation</h4><span class="dl-type">PPTX Document</span></div><a class="dl-btn" href="#"><i class="fas fa-external-link-alt"></i></a></div>
+</div></div>
+</div></section>
+<section class="section" id="publications"><div class="container">
+<div class="section-label fade-up">Publications</div><h2 class="section-title fade-up">Research <span class="hl">Papers</span></h2>
+<p class="section-desc fade-up">Our research contributions accepted for academic publication.</p>
+<div class="pub-card fade-up"><h3>Multidimensional Analysis of Factors Affecting Undergraduate Lecture Attendance</h3><div class="pub-authors">Deemantha P.H.H.C</div><p>Evidence from a Sri Lankan Higher Education Context</p><a class="pub-link" href="https://drive.google.com/file/d/18BccTZqR0HdPY7PYmkl4MaW9gOkjz36b/view?usp=sharing" target="_blank">Read Paper <i class="fas fa-arrow-right"></i></a></div>
+<div class="pub-card fade-up"><h3>A Dual-Source RAG-Based Real-Time Classroom Support System</h3><div class="pub-authors">Pallewela S.M</div><p>For Question Answering, Lecture Summarisation, and Outcome-Aligned Assessment</p><a class="pub-link" href="https://drive.google.com/file/d/1ijBnYRWrY53CFb72abhz2BhSFVAp89KR/view?usp=sharing" target="_blank">Read Paper <i class="fas fa-arrow-right"></i></a></div>
+<div class="pub-card fade-up"><h3>A Unified Real-Time Classroom Analytics Framework</h3><div class="pub-authors">Kisara W.C &amp; De Silva A.R.S</div><p>For Student Engagement and Teacher Behavior Analysis</p><a class="pub-link" href="https://drive.google.com/file/d/1cvGi68bRY7MbRyHef3ipbV87TmDcQEy9/view?usp=sharing" target="_blank">Read Paper <i class="fas fa-arrow-right"></i></a></div>
+</div></section>
+<section class="section" id="team" style="background:var(--bg2)"><div class="container">
+<div class="section-label fade-up">Our Team</div><h2 class="section-title fade-up">Meet the <span class="hl">Team</span></h2>
+<p class="section-desc fade-up">The people behind EduMonitor.</p><div class="team-grid">
+<div class="team-card fade-up"><img class="team-avatar" src="images/Prof. Pradeep Abeygunawardhana(Supervisor).jpg" alt="Prof. Pradeep Abeygunawardhana"/><h3>Prof. Pradeep Abeygunawardhana</h3><div class="team-role">Supervisor</div></div>
+<div class="team-card fade-up"><img class="team-avatar" src="images/Ms. Suranjini Silva(Co-supervisor).jpg" alt="Ms. Suranjini Silva"/><h3>Ms. Suranjini Silva</h3><div class="team-role">Co-Supervisor</div></div>
+<div class="team-card fade-up"><img class="team-avatar" src="images/kisara w.c.jpg" alt="Kisara W.C"/><h3>Kisara W.C</h3><div class="team-role">Team Member</div><div class="team-id">IT22582874</div></div>
+<div class="team-card fade-up"><img class="team-avatar" src="images/dE SILVA a.r.s.png" alt="De Silva A.R.S"/><h3>De Silva A.R.S</h3><div class="team-role">Team Member</div><div class="team-id">IT22586834</div></div>
+<div class="team-card fade-up"><img class="team-avatar" src="images/Deemantha P.H.H.C.JPG" alt="Deemantha P.H.H.C"/><h3>Deemantha P.H.H.C</h3><div class="team-role">Team Member</div><div class="team-id">IT22560162</div></div>
+<div class="team-card fade-up"><img class="team-avatar" src="images/PALLEWELA S.M.jpg" alt="Pallewela S.M"/><h3>Pallewela S.M</h3><div class="team-role">Team Member</div><div class="team-id">IT22594136</div></div>
+</div></div></section>
+<section class="section" id="contact"><div class="container">
+<div class="section-label fade-up">Get In Touch</div><h2 class="section-title fade-up">Contact <span class="hl">Us</span></h2>
+<p class="section-desc fade-up">Have questions about our research? Reach out to any team member.</p>
+<div class="contact-wrapper fade-up"><div class="contact-info-cards">
+<div class="contact-card"><div class="contact-icon"><i class="fas fa-envelope"></i></div><div><h4>Kisara W.C</h4><a href="mailto:it22582874@my.sliit.lk">it22582874@my.sliit.lk</a><p>076 018 6270</p></div></div>
+<div class="contact-card"><div class="contact-icon"><i class="fas fa-envelope"></i></div><div><h4>De Silva A.R.S</h4><a href="mailto:it22586834@my.sliit.lk">it22586834@my.sliit.lk</a><p>075 647 0579</p></div></div>
+<div class="contact-card"><div class="contact-icon"><i class="fas fa-envelope"></i></div><div><h4>Deemantha P.H.H.C</h4><a href="mailto:it22560162@my.sliit.lk">it22560162@my.sliit.lk</a><p>070 308 1363</p></div></div>
+<div class="contact-card"><div class="contact-icon"><i class="fas fa-envelope"></i></div><div><h4>Pallewela S.M</h4><a href="mailto:it22594136@my.sliit.lk">it22594136@my.sliit.lk</a><p>071 480 8366</p></div></div>
+<div class="contact-card"><div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div><div><h4>SLIIT Malabe Campus</h4><p>New Kandy Rd, Malabe, Sri Lanka</p></div></div>
+</div>
+<div class="contact-form"><h3>Send us a Message</h3><p class="form-sub">We'll get back to you as soon as possible.</p>
+<form id="contactForm"><div class="form-row"><div class="form-group"><label for="fname">First Name</label><input type="text" id="fname" required placeholder="Your first name"/></div>
+<div class="form-group"><label for="lname">Last Name</label><input type="text" id="lname" required placeholder="Your last name"/></div></div>
+<div class="form-group"><label for="email">Email</label><input type="email" id="email" required placeholder="your@email.com"/></div>
+<div class="form-group"><label for="message">Message</label><textarea id="message" required placeholder="How can we help you?"></textarea></div>
+<button type="submit" class="form-submit">Send Message</button><div class="form-msg" id="formMsg"></div></form></div></div></div></section>
+<div class="stay-connected"><div class="container">
+<div class="section-label">Let's Stay Connected</div>
+<h2 class="section-title" style="font-size:1.6rem">Follow Our Research Journey</h2>
+<p style="color:var(--t2);margin-top:8px">Stay updated with our latest developments and publications.</p>
+<div class="social-links">
+<a href="#" class="social-link"><i class="fab fa-github"></i></a>
+<a href="#" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+<a href="mailto:it22560162@my.sliit.lk" class="social-link"><i class="fas fa-envelope"></i></a>
+<a href="#" class="social-link"><i class="fab fa-researchgate"></i></a>
+</div></div></div>
+<footer class="footer"><div class="container">
+<p style="margin-bottom:8px"><a href="#home" class="nav-logo" style="font-size:1.1rem">Edu<span>Monitor</span></a></p>
+<p>&copy; 2025 EduMonitor — Sri Lanka Institute of Information Technology. All rights reserved.</p>
+</div></footer>
+<button class="scroll-top" aria-label="Scroll to top"><i class="fas fa-chevron-up"></i></button>
+<script src="script.js"></script></body></html>

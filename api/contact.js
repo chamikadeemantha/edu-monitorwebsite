@@ -19,7 +19,8 @@ export default async function handler(req, res) {
       },
       body: JSON.stringify({
         from: 'EduMonitor <onboarding@resend.dev>',
-        to: ['it22560162@my.sliit.lk'],
+        to: ['chamikade01@gmail.com'],
+        reply_to: email,
         subject: `EduMonitor Contact: ${name}`,
         html: `
           <h3>New Contact from EduMonitor Website</h3>

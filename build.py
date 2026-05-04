@@ -139,7 +139,7 @@ cats = [
     ("Presentations","fa-file-powerpoint",[
         ("Proposal Presentation","PPTX","https://docs.google.com/presentation/d/1O9Egh_E56Qb0K_lxxRWWiL_8CkAZ8cqg/edit?usp=drive_link&ouid=106375118808152884765&rtpof=true&sd=true"),
         ("Progress Presentation 1","PPTX","https://docs.google.com/presentation/d/1kUfcPPYykvClRLFozm9yRUkSEUKkAJYw/edit?usp=drive_link&ouid=106375118808152884765&rtpof=true&sd=true"),
-        ("Progress Presentation 2","PPTX","#"),("Final Presentation","PPTX","#")])
+        ("Progress Presentation 2","PPTX","#"),("Final Presentation","PPTX","https://drive.google.com/file/d/1w2gcBV1b9067up1VFRDZxJ8RRViovdL6/view?usp=sharing")])
 ]
 h.write('<section class="section" id="downloads" style="background:var(--bg2)"><div class="container">\n')
 h.write('<div class="section-label fade-up">Resources</div><h2 class="section-title fade-up">Downloads &amp; <span class="hl">Documents</span></h2>\n')

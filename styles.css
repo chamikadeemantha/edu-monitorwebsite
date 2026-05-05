@@ -142,6 +142,10 @@ body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--t1);line-he
 .team-card h3{font-size:1rem;font-weight:700;margin-bottom:4px}
 .team-card .team-role{color:var(--a2);font-size:.82rem;font-weight:600;margin-bottom:4px}
 .team-card .team-id{color:var(--t3);font-size:.78rem}
+.team-contact{margin-top:12px;display:flex;flex-direction:column;gap:6px;align-items:center}
+.team-contact a,.team-contact span{display:inline-flex;align-items:center;gap:6px;font-size:.78rem;color:var(--t3);text-decoration:none;transition:var(--tr)}
+.team-contact a:hover{color:var(--a2)}
+.team-contact i{font-size:.72rem;color:var(--a1)}
 
 /* Contact */
 .contact-wrapper{display:grid;grid-template-columns:1fr 1.2fr;gap:40px;align-items:start}
